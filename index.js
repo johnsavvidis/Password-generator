@@ -24,6 +24,3 @@ function PasswordGenerator(){
     passwordEl1.textContent = message1
     passwordEl2.textContent = message2
 }
-
-passwordEl1.textContent = " "
-passwordEl2.textContent = " "
