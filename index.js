@@ -6,8 +6,6 @@ let message2 = ""
 function PasswordGenerator(){
     let password1 = [ ]
     let password2 = [ ]
-    passwordEl1.textContent = ""
-    passwordEl2.textContent = ""
     for (let i = 0; i < 15; i++){
         let randomChar1 = Math.floor(Math.random()*characters.length)
         password1[i] = characters[randomChar1]
@@ -22,4 +20,6 @@ function PasswordGenerator(){
     }
     passwordEl1.textContent = message1
     passwordEl2.textContent = message2
+    passwordEl1.textContent = ""
+    passwordEl2.textContent = ""
 }
