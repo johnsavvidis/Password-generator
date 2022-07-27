@@ -25,7 +25,7 @@ function PasswordGenerator(){
     if(ArePasswordsCreated === true){
         message1 = ""
         message2 = ""
-        passwordEl1.textContent = ""
-        passwordEl2.textContent = ""
+        passwordEl1.textContent = message1
+        passwordEl2.textContent = message2
     }
 }
