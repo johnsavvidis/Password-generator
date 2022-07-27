@@ -3,10 +3,10 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let passwordEl1 = document.getElementById("password-el1")
 let passwordEl2 = document.getElementById("password-el2")
-let message1 = " "
-let message2 = " "
 
 function PasswordGenerator(){
+    let message1 = " "
+    let message2 = " "
     let password1 = [ ]
     let password2 = [ ]
     for (let i = 0; i < 15; i++){
